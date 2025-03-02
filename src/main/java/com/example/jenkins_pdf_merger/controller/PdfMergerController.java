@@ -45,4 +45,33 @@ public class PdfMergerController {
   public String test() {
     return "PDF Merger is working!";
   }
+
+
+  @GetMapping("/home")
+  public String home() {
+    return "<html>" +
+      "<head>" +
+      "<title>PDF Merger</title>" +
+      "<style>" +
+      "body { font-family: Arial, sans-serif; margin: 50px; }" +
+      "h1 { color: #333; }" +
+      "form { border: 1px solid #ccc; padding: 20px; border-radius: 5px; }" +
+      "input[type='file'] { margin-bottom: 10px; }" +
+      "input[type='submit'] { background-color: #4CAF50; color: white; border: none; padding: 10px 20px; cursor: pointer; }" +
+      "input[type='submit']:hover { background-color: #45a049; }" +
+      "</style>" +
+      "</head>" +
+      "<body>" +
+      "<h1>PDF Merger</h1>" +
+      "<form method='POST' action='/api/pdf/merge' enctype='multipart/form-data'>" +
+      "<input type='file' name='files' multiple required>" +
+      "<br><br>" +
+      "<input type='submit' value='Merge PDFs'>" +
+      "</form>" +
+      "</body>" +
+      "</html>";
+  }
+
+
+
 }
