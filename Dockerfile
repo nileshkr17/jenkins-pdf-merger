@@ -1,5 +1,5 @@
 FROM openjdk:17
 WORKDIR /app
-COPY jenkins-pdf-merger-0.0.1-SNAPSHOT.jar app.jar
+COPY target/jenkins-pdf-merger-0.0.1-SNAPSHOT.jar app.jar
 CMD ["java", "-jar", "app.jar"]
 EXPOSE 8080
