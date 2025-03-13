@@ -51,7 +51,7 @@ public class PdfMergerController {
   public String home() {
     return "<html>" +
       "<head>" +
-      "<title>PDF Merger | nileshkr17</title>" +
+      "<title>PDF Merger|nileshkr17</title>" +
       "<style>" +
       "body { font-family: Arial, sans-serif; margin: 50px; }" +
       "h1 { color: #333; }" +
