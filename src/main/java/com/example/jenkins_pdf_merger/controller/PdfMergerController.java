@@ -69,7 +69,6 @@ public class PdfMergerController {
       "<body>" +
       "<div class='container'>" +
       "<h1><i class='fa-solid fa-file-pdf'></i> PDF Merger</h1>" +
-      "<h3><i class='fa-solid fa-file-pdf'></i> thank you!</h3>" +
       "<p>Select two or more PDF files to merge them.</p>" +
       "<i class='fa-solid fa-upload upload-icon'></i>" +
       "<form method='POST' action='/api/pdf/merge' enctype='multipart/form-data'>" +
