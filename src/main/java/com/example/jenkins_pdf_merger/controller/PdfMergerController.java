@@ -51,7 +51,7 @@ public class PdfMergerController {
   public String home() {
     return "<html>" +
       "<head>" +
-      "<title>PDF Merger |Haha new changes</title>" +
+      "<title>PDF Merger|more |Haha new changes</title>" +
       "<link rel='icon' type='image/png' href='https://cdn-icons-png.flaticon.com/512/337/337946.png'>" +
       "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>" +
       "<style>" +
