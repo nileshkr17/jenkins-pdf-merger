@@ -77,7 +77,7 @@ public class PdfMergerController {
       "<input type='submit' value='Merge PDFs'>" +
       "</form>" +
       "</div>" +
-      "<div class='footer'>© 2025 nileshkr17 :) | Built with ❤️ </div>" +
+      "<div class='footer'>© 2025  | Built with ❤️ by nileshkr17</div>" +
       "</body>" +
       "</html>";
   }
